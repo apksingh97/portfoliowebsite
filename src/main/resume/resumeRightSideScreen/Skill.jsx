@@ -1,5 +1,5 @@
 import ProgressBar from '../../../shared/common/ProgressBar'
-import { html, bootstrap, tailwind, javascript, typescript, reactjs, nextjs, vuejs, nodejs, expressjs, mongodb, mysql, java, redux, zustand, github, gitlab, bitbucket, jira } from '../../../assets'
+import { html, bootstrap, tailwind, javascript, typescript, reactjs, nextjs, vuejs, nodejs, expressjs, mongodb, mysql, redux, zustand, github, gitlab, bitbucket, jira } from '../../../assets'
 const Skill = () => {
 
     const BasicStyle = [{
@@ -100,11 +100,11 @@ const Skill = () => {
         percent: '20%',
         icon: expressjs
     },
-    {
-        title: "Java",
-        percent: '40%',
-        icon: java
-    },
+    // {
+    //     title: "Java",
+    //     percent: '40%',
+    //     icon: java
+    // },
     ]
     
 
