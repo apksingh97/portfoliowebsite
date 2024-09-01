@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #22242a;
+  --secondary-color: #363640;
+  --primary-text-color: #5fdbd1;
+  --dark-color: #333333;
+  --button-color: #54ecec;
+  --golden-color: #ffe369;
+  --font-poppins: "Poppins", "sans-serif";
+  --font-roboto: "Roboto", "sans-serif";
+  --font-roboto-mono: "Roboto Mono", monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+@layer base {
+  .heading1 {
+    @apply font-black text-white lg:text-[70px] md:text-[50px] text-[30px] lg:leading-[98px] mt-2;
+  }
+  .headingSubText {
+    @apply text-[#dfd9ff] font-medium lg:text-[30px] md:text-[26px] text-[16px] lg:leading-[40px];
+  }
+  .sectionHeadText {
+    @apply text-white font-black lg:text-[60px] md:text-[50px] text-[30px];
+  }
+  .sectionSubText {
+    @apply sm:text-[18px] text-[14px] text-new-secondary uppercase tracking-wider;
+  }
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h4 {
+    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+  }
+  .heading {
+    @apply mb-4 after:absolute after:bg-goldenColor after:content-[''] after:bottom-[-5px] after:w-[40px] after:h-[2px] after:left-0;
+  }
+  .containerBox {
+    @apply lg:container m-auto px-8 md:px-8 lg:px-4 xl:px-2;
+  }
+}
+.solidButtonStyle {
+  border: 1px solid var(--primary-text-color);
+  background: var(--primary-text-color);
+  padding: 10px 17px;
+  border-radius: 24px;
+  color: #000;
+  transition: 400ms;
+}
+.solidButtonStyle:hover {
+  background: transparent;
+  border: 1px solid var(--primary-text-color);
+  color: #fff;
+  transform: translateY(-4px);
+  box-shadow: 1px 1px 4px var(--primary-text-color);
+}
+.lineButtonStyle {
+  border: 1px solid var(--primary-text-color);
+  padding: 10px 17px;
+  border-radius: 24px;
+  transition: 400ms;
+}
+.lineButtonStyle:hover {
+  background: var(--primary-text-color);
+  color: #000;
+  transform: translateY(-4px);
+  box-shadow: 1px 1px 4px var(--primary-text-color);
+}
+.error.field input {
+  background: rgb(246, 200, 200);
+  color: #000;
+}
+input,
+textarea {
+  color: #000;
+  font-size: 0.9rem !important;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* Edge */
+  color: #000;
+  font-size: 0.9rem;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+  font-size: 0.9rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #000;
+  font-size: 0.9rem;
+}
+.progressBar {
+  width: 0;
+}
+.menuLinkStyle a.active {
+  color: var(--button-color);
+}
+.menuLinkStyle li:hover a {
+  color: #000;
+  transition-delay: 0.4s;
+}
+.menuLinkStyle li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: 0.4s;
+  width: 0;
+  height: 2px;
+  background: var(--button-color);
+  bottom: 0;
+}
+.menuLinkStyle li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: var(--button-color);
+  bottom: 0;
+}
+
+.menuLinkStyle li:hover::after {
+  height: 100%;
+  transition: 1s;
+  transition-delay: 0.3s;
+}
+.menuLinkStyle li:hover::before {
+  width: 100%;
+}
+.menuLinkStyle a:hover {
+  color: var(--button-color);
+  transition: 1s;
+}
+.menuLinkStyle a.active {
+  background-color: var(--button-color);
+  color: #000;
+}
+.menuLinkStyle li:before a.active,
+.menuLinkStyle li:after a.active {
+  content: unset;
+}
+/* @media only screen and (max-width: 480px) {
+  *,
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  *,
+  body {
+    font-size: 13px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  * {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1170px) {
+  * {
+    font-size: 15px;
+  }
+} */
