@@ -142,7 +142,7 @@ const experiences = [
     company_name: "Fabulous Media Pvt. Ltd.",
     icon: "FM",
     iconBg: "#383E56",
-    date: "Feb 2019 - Aug 2019",
+    date: "March 2019 - Aug 2019",
     points: [
       "Develop a website",
       "Debugged WordPress sites ",
@@ -156,10 +156,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2019 - March 2020",
     points: [
-      "Worked with clients to develop a website",
-      "Debugged WordPress sites ",
-      "Optimized WordPress sites for performance",
-      "Migrated WordPress sites to new hosting providers",
+      "Converted PSD and Figma designs into fully functional HTML websites, maintaining high code quality.",
+"Developed intuitive user interfaces using modern front-end technologies like Bootstrap, Tailwind CSS, and JavaScript.",
+"Enhanced website performance, contributing to improved user engagement and SEO rankings"
     ],
   },
   {
@@ -169,10 +168,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2020 - dec 2020",
     points: [
-      "Worked with clients to develop a website",
-      "Debugged WordPress sites ",
-      "Optimized WordPress sites for performance",
-      "Migrated WordPress sites to new hosting providers",
+      "Delivered tailored WordPress solutions, focusing on theme and plugin development for enhanced site functionality.",
+      "Ensured websites were responsive, SEO-optimized, and aligned with client objectives, driving business growth." 
     ],
   },
   {
@@ -182,10 +179,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Aug 2021",
     points: [
-      "Worked with clients to develop a website",
-      "Debugged WordPress sites ",
-      "Optimized WordPress sites for performance",
-      "Migrated WordPress sites to new hosting providers",
+      "Engineered responsive and user-friendly web applications using React JS, Next JS, and Redux",
+      "Partnered with designers and backend developers to create cohesive and scalable user interfaces. ",
+      "Optimized application performance, achieving faster load times and better scalability.",
     ],
   },
   {
@@ -193,13 +189,24 @@ const experiences = [
     company_name: "Elgoss Pvt. ltd.",
     icon: "EL",
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Present",
+    date: "Sep 2021 - May 2023",
     points: [
-      " Designed and built user-friendly frontend interfaces",
-      "Optimized frontend code to improve website performance",
-      "Collaborated with back-end developers to integrate frontend code with application logic",
-      "Wrote code to implement visual elements into web applications",
-      "Engaged with users to gather feedback and resolve frontend issues",
+      "Led developing and maintaining cutting-edge software solutions using React JS, Next JS, and MongoDB.",
+      "Collaborated with cross-functional teams to deliver innovative and user-centric applications. ",
+      "Proactively troubleshooted and resolved technical challenges, ensuring seamless project execution and high client satisfaction.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Descartes Systems India Private Limited (WCT)",
+    icon: "DS",
+    iconBg: "#E6DEDD",
+    date: "June 2023 - Present",
+    points: [
+      "Translated complex stakeholder requirements into efficient, high-performance web applications.",
+      "Spearheaded website optimization, fixing critical bugs, and implementing new features that improved user experience.",
+      "Developed advanced React modules, ensuring smooth communication with backend services.",
+      "Provided exceptional client support, resolving issues promptly and maintaining strong client relationships."
     ],
   },
 ];
@@ -207,7 +214,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Amit proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -215,7 +222,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Amit does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -223,7 +230,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Amit optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
