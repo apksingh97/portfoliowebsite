@@ -66,7 +66,7 @@ const Skill = () => {
     const versionControl = [
         {
             title: "Github",
-            percent: '60%',
+            percent: '70%',
             icon: github
         },
         {
@@ -109,7 +109,7 @@ const Skill = () => {
     
 
     const Database = [{
-        title: "Mongo Db",
+        title: "Mongo Db", 
         percent: '10%',
         icon: mongodb
     },
