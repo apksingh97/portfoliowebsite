@@ -51,7 +51,7 @@ import python from "./img/skill/python.png";
 import bitbucket from "./img/skill/bitbucket.png";
 import codeDebugging from "./img/skill/code-debugging.webp";
 import gitlab from "./img/skill/gitlab.png"; 
-// import java from "./img/skill/java.png";
+import java from "./img/skill/java.png";
 import jira from "./img/skill/jira.png";
 import mysql from "./img/skill/mysql.png";
 import performanceTuning from "./img/skill/performanceTuning.png";
@@ -60,7 +60,7 @@ import troubleshooting from "./img/skill/troubleshooting.png";
 import zustand from "./img/skill/zustand.png"; 
 
 export {
-  python,bitbucket,codeDebugging,gitlab,jira,mysql,performanceTuning,troubleshooting,zustand,
+  python,bitbucket,codeDebugging,gitlab,java,jira,mysql,performanceTuning,troubleshooting,zustand,
   herobg,
   logo,
   backend,
