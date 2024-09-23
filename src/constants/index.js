@@ -45,6 +45,10 @@ const link = [
     title: "Fun",
     url: "/fun",
   },
+  {
+    title: "3D Website",
+    url: "/new-home",
+  },
 ];
 const newLink = [
   {
