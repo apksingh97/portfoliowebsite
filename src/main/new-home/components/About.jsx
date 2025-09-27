@@ -32,10 +32,10 @@ const About = () => {
             </motion.div>
             <motion.p variants={fadeIn('', "", 0.1, 1)}
                 className="mt-4 text-new-secondary text-[17px] leading-[30px]">
-                With over 5 years of experience in development, I specialize in building robust, scalable applications using React JS, Next JS, and state management tools like Redux and Zustand. I have a proven track record of delivering high-quality solutions that meet client needs and improve business performance. I am passionate about staying up-to-date with the latest technologies and continuously refining my skills. I am seeking opportunities to contribute to innovative projects where I can leverage my expertise in modern web technologies and state management to drive success. 
+                I am a Front-end Developer with 4 years of hands-on experience in building responsive, high-performance web applications using React.js and Next.js. I have a strong foundation in front-end architecture, modern JavaScript practices, and creating user-focused interfaces. Additionally, I possess beginner-level knowledge of Node.js, Java and I am eager to further develop my back-end skills to grow into a more versatile full-stack developer. I am enthusiastic about leveraging AI in web development and am actively expanding my expertise in this area to bring innovative solutions to future projects.
 
             </motion.p>
-            <div className='mt-20 md:mt-4 flex flex-wrap gap-10 '> 
+            <div className='mt-20 md:mt-4 flex flex-wrap gap-10 '>
                 {services.map((service, index) =>
                 (
                     < ServiceCard key={service.title} index={index} {...service} />

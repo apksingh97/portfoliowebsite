@@ -26,6 +26,7 @@ import {
   nextjs,
   controllerDashboard,
   userDashboard,
+  java,
 } from "../assets";
 
 const link = [
@@ -71,11 +72,11 @@ const newLink = [
 
 const services = [
   {
-    title: "Wordpress Developer",
+    title: "WordPress Developer",
     icon: web,
   },
   {
-    title: "Fronted Developer",
+    title: "Full-stack Developer",
     icon: creator,
   },
 ];
@@ -122,72 +123,72 @@ const technologies = [
     icon: mongodb,
   },
 
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: java,
+  },
   {
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
-  {
-    title: "WordPress developer (Intern) ",
-    company_name: "Fabulous Media Pvt. Ltd.",
-    icon: "FM",
-    iconBg: "#383E56",
-    date: "March 2019 - Aug 2019",
-    points: [
-      "Develop a website",
-      "Debugged WordPress sites ",
-      "Optimized WordPress sites for performance",
-    ],
-  },
-  {
-    title: "WordPress developer",
-    company_name: "Fabulous Media Pvt. Ltd.",
-    icon: "FM",
-    iconBg: "#E6DEDD",
-    date: "Sep 2019 - March 2020",
-    points: [
-      "Converted PSD and Figma designs into fully functional HTML websites, maintaining high code quality.",
-"Developed intuitive user interfaces using modern front-end technologies like Bootstrap, Tailwind CSS, and JavaScript.",
-"Enhanced website performance, contributing to improved user engagement and SEO rankings"
-    ],
-  },
-  {
-    title: "Freelancer",
-    company_name: "Freelancer",
-    icon: "FR",
-    iconBg: "#383E56",
-    date: "May 2020 - dec 2020",
-    points: [
-      "Delivered tailored WordPress solutions, focusing on theme and plugin development for enhanced site functionality.",
-      "Ensured websites were responsive, SEO-optimized, and aligned with client objectives, driving business growth." 
-    ],
-  },
-  {
-    title: "Wordpress Developer",
-    company_name: "Scizers IOT Pvt. ltd.",
-    icon: "SC",
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Aug 2021",
-    points: [
-      "Engineered responsive and user-friendly web applications using React JS, Next JS, and Redux",
-      "Partnered with designers and backend developers to create cohesive and scalable user interfaces. ",
-      "Optimized application performance, achieving faster load times and better scalability.",
-    ],
-  },
+  //   {
+  //     title: "WordPress developer (Intern) ",
+  //     company_name: "Fabulous Media Pvt. Ltd.",
+  //     icon: "FM",
+  //     iconBg: "#383E56",
+  //     date: "March 2019 - Aug 2019",
+  //     points: [
+  //       "Develop a website",
+  //       "Debugged WordPress sites ",
+  //       "Optimized WordPress sites for performance",
+  //     ],
+  //   },
+  //   {
+  //     title: "WordPress developer",
+  //     company_name: "Fabulous Media Pvt. Ltd.",
+  //     icon: "FM",
+  //     iconBg: "#E6DEDD",
+  //     date: "Sep 2019 - March 2020",
+  //     points: [
+  //       "Converted PSD and Figma designs into fully functional HTML websites, maintaining high code quality.",
+  // "Developed intuitive user interfaces using modern front-end technologies like Bootstrap, Tailwind CSS, and JavaScript.",
+  // "Enhanced website performance, contributing to improved user engagement and SEO rankings"
+  //     ],
+  //   },
+  //   {
+  //     title: "Freelancer",
+  //     company_name: "Freelancer",
+  //     icon: "FR",
+  //     iconBg: "#383E56",
+  //     date: "May 2020 - dec 2020",
+  //     points: [
+  //       "Delivered tailored WordPress solutions, focusing on theme and plugin development for enhanced site functionality.",
+  //       "Ensured websites were responsive, SEO-optimized, and aligned with client objectives, driving business growth." 
+  //     ],
+  //   },
+  // {
+  //   title: "Wordpress Developer",
+  //   company_name: "Scizers IOT Pvt. ltd.",
+  //   icon: "SC",
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Aug 2021",
+  //   points: [
+  //     "Engineered responsive and user-friendly web applications using React JS, Next JS, and Redux",
+  //     "Partnered with designers and backend developers to create cohesive and scalable user interfaces. ",
+  //     "Optimized application performance, achieving faster load times and better scalability.",
+  //   ],
+  // },
   {
     title: "Frontend Developer",
     company_name: "Elgoss Pvt. ltd.",
@@ -201,7 +202,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Full Stack Developer",
     company_name: "Descartes Systems India Private Limited (WCT)",
     icon: "DS",
     iconBg: "#E6DEDD",

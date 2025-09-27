@@ -8,7 +8,7 @@ const LeftSideScreen = () => {
                 <img src={profile} alt="Amit Pratap Singh" />
             </div>
             <h4 className='h4 text-center mb-0 text-mainTextColor'>Amit Pratap Singh</h4>
-            <p className='text-md text-center'><span className='bg-[#2d2b27] rounded-[30px] px-7 py-1 text-white/80'>Software Engineer
+            <p className='text-md text-center'><span className='bg-[#2d2b27] rounded-[30px] px-7 py-1 text-white/80'>Full Stack Developer
             </span> </p>
             <div className="py-8">
                 <hr className='bg-[#201e1b]' />

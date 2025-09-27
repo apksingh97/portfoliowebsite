@@ -16,10 +16,9 @@ const Dashboard = () => {
                     <div className='md:w-[59%] lg:w-[65%] flex flex-col justify-center'>
                         <p className='text-xl md:text-2xl lg:text-3xl font-semibold font-poppins'>Hello, It's Me</p>
                         <h4 className='text-4xl md:text-5xl lg:text-6xl font-bold font-primary py-1'>Amit Pratap Singh</h4>
-                        <p className='text-2xl md:text-3xl font-semibold font-poppins '>I'm a <TypeAnimation className='text-mainTextColor text-2xl md:text-3xl' sequence={[' Software Engineer', 2000, ' Software Engineer', 3000]} speed={50} wrapper='span' repeat={Infinity} />
+                        <p className='text-2xl md:text-3xl font-semibold font-poppins '>I'm a <TypeAnimation className='text-mainTextColor text-2xl md:text-3xl' sequence={[' Software Engineer', 2000, ' Full Stack Developer', 3000]} speed={50} wrapper='span' repeat={Infinity} />
                         </p>
-                        <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>With over 5 years of experience in development, I specialize in building robust, scalable applications using React JS, Next JS, and
-                            state management tools like Redux and Zustand. I have a proven track record of delivering high-quality solutions that meet client needs and improve business performance. I am passionate about staying up-to-date with the latest technologies and continuously refining my skills. I am seeking opportunities to contribute to innovative projects where I can leverage my expertise in modern web technologies and state management to drive success.
+                        <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>I am a Front-end Developer with 4 years of hands-on experience in building responsive, high-performance web applications using React.js and Next.js. I have a strong foundation in front-end architecture, modern JavaScript practices, and creating user-focused interfaces. Additionally, I possess beginner-level knowledge of Node.js, Java and I am eager to further develop my back-end skills to grow into a more versatile full-stack developer. I am enthusiastic about leveraging AI in web development and am actively expanding my expertise in this area to bring innovative solutions to future projects.
                         </p>
 
                         <div className="buttonStyle flex-wrap flex gap-3 mt-4">

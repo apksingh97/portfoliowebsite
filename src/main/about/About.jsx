@@ -11,9 +11,9 @@ const About = () => {
                     <div className="flex flex-col md:flex-row-reverse  gap-10 h-full">
                         <div className='md:w-[59%] lg:w[70%] flex flex-col justify-center'>
                             <h4 className='text-4xl font-bold font-primary py-1'>About <span className='text-mainTextColor text-4xl'>Me</span></h4>
-                            <p className='text-2xl font-semibold font-poppins'>Software Engineer
+                            <p className='text-2xl font-semibold font-poppins'>Full Stack Developer
                             </p>
-                            <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>With more than 5 years of expertise in building high-performance web applications using React and Next.js, we specialize in creating responsive, user-friendly interfaces and managing state with Redux. Proficient in JavaScript (ES6+), TypeScript, and modern web technologies, we are dedicated to continuous learning and innovation. Our team thrives in Agile environments, delivering exceptional user experiences through collaboration and effective problem-solving.</p>
+                            <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>With more than 4 years of expertise in building high-performance web applications using React and Next.js, we specialize in creating responsive, user-friendly interfaces and managing state with Redux. Proficient in JavaScript (ES6+), TypeScript, and modern web technologies, we are dedicated to continuous learning and innovation. Our team thrives in Agile environments, delivering exceptional user experiences through collaboration and effective problem-solving.</p>
 
 
 
