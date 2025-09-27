@@ -13,7 +13,12 @@ const About = () => {
                             <h4 className='text-4xl font-bold font-primary py-1'>About <span className='text-mainTextColor text-4xl'>Me</span></h4>
                             <p className='text-2xl font-semibold font-poppins'>Full Stack Developer
                             </p>
-                            <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>With more than 4 years of expertise in building high-performance web applications using React and Next.js, we specialize in creating responsive, user-friendly interfaces and managing state with Redux. Proficient in JavaScript (ES6+), TypeScript, and modern web technologies, we are dedicated to continuous learning and innovation. Our team thrives in Agile environments, delivering exceptional user experiences through collaboration and effective problem-solving.</p>
+                            <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>With more than 4 years of expertise in front-end development, I'm a building fast, responsive, and user-centric web applications using React.js and Next.js. I specialize in crafting clean UI components, implementing modern JavaScript (ES6+), and architecting scalable front-end systems that deliver seamless user experiences.
+                                <br /> <br />
+                                While front-end is my core strength, I’m actively expanding my back-end capabilities. I have beginner-level experience with Node.js, Java and Struts and I'm eager to deepen my knowledge to evolve into a well-rounded full-stack developer.
+                                <br /> <br />
+                                Passionate about the future of web development, I’m currently exploring how to integrate AI-driven features into modern web apps to create more dynamic, intelligent, and personalized user experiences.
+                            </p>
 
 
 

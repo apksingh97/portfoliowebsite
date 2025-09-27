@@ -8,7 +8,12 @@ const RightSideScreen = () => {
         <section>
             <div className='relative mb-7'>
                 <h4 className='text-4 font-normal font-tertiary relative inline-block text-goldenColor uppercase tracking-[3px]'>About Me</h4>
-                <p className='text-md font-light text-white/70 font-sans tracking-[1px]'>I am a Front-end Developer with 4 years of hands-on experience in building responsive, high-performance web applications using React.js and Next.js. I have a strong foundation in front-end architecture, modern JavaScript practices, and creating user-focused interfaces. Additionally, I possess beginner-level knowledge of Node.js, Java and I am eager to further develop my back-end skills to grow into a more versatile full-stack developer. I am enthusiastic about leveraging AI in web development and am actively expanding my expertise in this area to bring innovative solutions to future projects.
+                <p className='text-md font-light text-white/70 font-sans tracking-[1px]'>I am a Front-end Developer with 4 I’m a Front-End Developer with 4 years of hands-on experience building fast, responsive, and user-centric web applications using React.js and Next.js. I specialize in crafting clean UI components, implementing modern JavaScript (ES6+), and architecting scalable front-end systems that deliver seamless user experiences.
+                    <br /> <br />
+                    While front-end is my core strength, I’m actively expanding my back-end capabilities. I have beginner-level experience with Node.js, Java and Struts and I'm eager to deepen my knowledge to evolve into a well-rounded full-stack developer.
+                    <br /> <br />
+                    Passionate about the future of web development, I’m currently exploring how to integrate AI-driven features into modern web apps to create more dynamic, intelligent, and personalized user experiences.
+
                 </p>
             </div>
             <div className='my-7'>
