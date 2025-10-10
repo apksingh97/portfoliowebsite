@@ -18,7 +18,9 @@ const Dashboard = () => {
                         <h4 className='text-4xl md:text-5xl lg:text-6xl font-bold font-primary py-1'>Amit Pratap Singh</h4>
                         <p className='text-2xl md:text-3xl font-semibold font-poppins '>I'm a <TypeAnimation className='text-mainTextColor text-2xl md:text-3xl' sequence={[' Software Engineer', 2000, ' Full Stack Developer', 3000]} speed={50} wrapper='span' repeat={Infinity} />
                         </p>
-                        <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>I am a Front-end Developer with 4 years of hands-on experience in building responsive, high-performance web applications using React.js and Next.js. I have a strong foundation in front-end architecture, modern JavaScript practices, and creating user-focused interfaces. Additionally, I possess beginner-level knowledge of Node.js, Java and I am eager to further develop my back-end skills to grow into a more versatile full-stack developer. I am enthusiastic about leveraging AI in web development and am actively expanding my expertise in this area to bring innovative solutions to future projects.
+                        <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>I am a Full-Stack Developer with 4 years of hands-on experience building responsive, high-performance web applications, primarily using React.js and Next.js. With a solid foundation in front-end architecture, modern JavaScript, and user-centered design, I create seamless and engaging user experiences.
+
+                            In addition to my front-end expertise, I have working knowledge of Node.js and Java, and I am actively deepening my back-end development skills to become a more well-rounded full-stack professional. I am also passionate about integrating AI into web development and am continuously exploring its potential to drive innovation and enhance application functionality.
                         </p>
 
                         <div className="buttonStyle flex-wrap flex gap-3 mt-4">

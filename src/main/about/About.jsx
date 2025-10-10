@@ -13,11 +13,11 @@ const About = () => {
                             <h4 className='text-4xl font-bold font-primary py-1'>About <span className='text-mainTextColor text-4xl'>Me</span></h4>
                             <p className='text-2xl font-semibold font-poppins'>Full Stack Developer
                             </p>
-                            <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>With more than 4 years of expertise in front-end development, I'm a building fast, responsive, and user-centric web applications using React.js and Next.js. I specialize in crafting clean UI components, implementing modern JavaScript (ES6+), and architecting scalable front-end systems that deliver seamless user experiences.
+                            <p className='text-[1rem] font-poppins  tracking-wide pt-4 w-[90%]'>With 4 years of experience in web development, I specialize as a Full-Stack Developer with a strong foundation in building fast, responsive, and user-focused applications. My expertise lies in front-end technologies like React.js and Next.js, where I’ve developed clean, scalable UI components and implemented modern JavaScript (ES6+) best practices to deliver seamless user experiences.
                                 <br /> <br />
-                                While front-end is my core strength, I’m actively expanding my back-end capabilities. I have beginner-level experience with Node.js, Java and Struts and I'm eager to deepen my knowledge to evolve into a well-rounded full-stack developer.
+                                In addition to my front-end strengths, I’ve been actively developing my back-end skills with hands-on experience in Node.js, Java, and Struts, working toward becoming a well-rounded full-stack professional capable of delivering end-to-end solutions.
                                 <br /> <br />
-                                Passionate about the future of web development, I’m currently exploring how to integrate AI-driven features into modern web apps to create more dynamic, intelligent, and personalized user experiences.
+                                I’m also passionate about the evolving landscape of web development and am currently exploring how to integrate AI-driven capabilities into full-stack applications to create more intelligent, personalized, and dynamic user experiences.
                             </p>
 
 

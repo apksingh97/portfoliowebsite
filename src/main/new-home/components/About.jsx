@@ -32,11 +32,11 @@ const About = () => {
             </motion.div>
             <motion.p variants={fadeIn('', "", 0.1, 1)}
                 className="mt-4 text-new-secondary text-[17px] leading-[30px]">
-                I’m a Front-End Developer with 4 years of hands-on experience building fast, responsive, and user-centric web applications using React.js and Next.js. I specialize in crafting clean UI components, implementing modern JavaScript (ES6+), and architecting scalable front-end systems that deliver seamless user experiences.
+                I’m a Full Stack Developer with 4 years of professional experience building fast, responsive, and user-centric web applications. My core strength lies in front-end development, where I specialize in crafting clean, modular UI components and scalable architectures using React.js, Next.js, and modern JavaScript (ES6+).
                 <br /> <br />
-                While front-end is my core strength, I’m actively expanding my back-end capabilities. I have beginner-level experience with Node.js, Java and Struts and I'm eager to deepen my knowledge to evolve into a well-rounded full-stack developer.
+                In addition to my front-end expertise, I’m actively building my back-end skill set, with hands-on experience in Node.js, Java, and Struts. I'm focused on becoming a well-rounded developer capable of owning features end-to-end—from database to browser.
                 <br /> <br />
-                Passionate about the future of web development, I’m currently exploring how to integrate AI-driven features into modern web apps to create more dynamic, intelligent, and personalized user experiences.
+                Passionate about the evolving web landscape, I'm currently exploring the integration of AI-powered features into modern web apps—aiming to create smarter, more dynamic, and personalized user experiences.
 
 
             </motion.p>
