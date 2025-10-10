@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* <ComputersCanvas /> */} //TODO: work on latter
+            {/* <ComputersCanvas /> //TODO: work on latter */}
             <div className="absolute sm:bottom-[10px] bottom-[90px] w-full flex justify-center items-center">
                 <a href="#about">
 
